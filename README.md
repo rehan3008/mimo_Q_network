@@ -32,8 +32,8 @@ This paper proposes an Uncertainty-Aware Rank-One MIMO Q Network Framework, a no
 ## 🧪 Installation
 
 ```bash
-git clone https://github.com/your-username/uar-mimo-offline-rl.git
-cd uar-mimo-offline-rl
+git clone https://github.com/thanhkaist/mimo_Q_network.git
+cd mimo_Q_network
 pip install -r requirements.txt
 ```
 
